@@ -14,4 +14,83 @@ main{
     height: 1024px;
     margin: auto;
     background-image: url('original.jpg');
+    position: relative;
+}
+
+
+main :nth-child(1) {
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -28px;
+    top: 28px;
+}
+
+main :nth-child(2) {
+    position: absolute;
+    left: 208px;
+    top: 0px ;
+}
+
+main :nth-child(3) {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+main :nth-child(4) {
+    position: absolute;
+    left: 0px;
+    top: 266px;
+}
+
+main :nth-child(5) {
+    position: absolute;
+    left: 288px;
+    top: 193px;
+}
+
+main :nth-child(6) {
+    position: absolute;
+    right: 0px;
+    top: 195px;
+}
+
+main :nth-child(7) {
+    position: absolute;
+    bottom: 155px;
+    left: 0px;
+}
+
+main :nth-child(8) {
+    transform: rotate(90deg);
+    position: absolute;
+    right: 240px;
+    bottom: 194px;
+}
+
+main :nth-child(9) {
+    transform: rotate(-180deg);
+    position: absolute;
+    right: 0px;
+    bottom: 218px;
+}
+
+main :nth-child(10) {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+main :nth-child(11) {
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: -60px;
+    left: 341px;
+}
+
+main :nth-child(12) {
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 8px;
+    right: -8px;
 }
